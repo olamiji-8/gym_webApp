@@ -2,6 +2,7 @@ import "./navbar.css"
 import {Link,NavLink } from "react-router-dom"
 import Logo from "../images/logo.png"
 import {links} from "../data"
+import {GoThreeBars} from "react-icons/go"
 
 const NavBar = () => {
   return (
@@ -22,8 +23,7 @@ const NavBar = () => {
       })
     }
    </ul>
-     
-      button
+     <GoThreeBars/>
 
     </div>
    </nav>
