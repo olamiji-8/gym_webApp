@@ -11,19 +11,18 @@ const NavBar = () => {
     <img src={Logo} alt=""/>
     </Link>
      
-     <ul>
-          {
-            links.map(({name,path}, index)=>{
-              return(
-                <li>
-                  <NavLink to={path}>{name}</NavLink>
-                </li>
-              )
-            }
-            )
-          }
-     </ul>
-      nav links
+   <ul>
+    {
+      links.map(({name,path}, index)=> {
+        return(
+          <li>
+            <NavLink to={path}>{name}</NavLink>
+          </li>
+        )
+      })
+    }
+   </ul>
+     
       button
 
     </div>
