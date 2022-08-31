@@ -6,10 +6,12 @@ import Gallery from "./pages/gallery/Gallery"
 import Plans from "./pages/plans/Plans"
 import Trainers from "./pages/trainers/Trainers"
 import NotFound from "./pages/notFound/NotFound"
+import NavBar from './components/NavBar'
 
 const App = () => {
   return (
     <div>
+      <NavBar/>
       <Home/>
       <About/>
       <Contact/>
