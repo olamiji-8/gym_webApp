@@ -1,0 +1,7 @@
+nav{
+    height: 5rem;
+    width: 100vw;
+    background-color: var(--color-primary);
+    display: grid;
+    place-items: ;
+}

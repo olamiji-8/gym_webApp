@@ -7,12 +7,12 @@ import {GoThreeBars} from "react-icons/go"
 const NavBar = () => {
   return (
    <nav>
-    <div className="container_nav">
+    <div className="container container_nav">
     <Link to ="/" className="logo" >
-    <img src={Logo} alt=""/>
+    <img src={Logo} alt="Nav"/>
     </Link>
      
-   <ul>
+   <ul className="nav_links">
     {
       links.map(({name,path}, index)=> {
         return(
@@ -23,7 +23,10 @@ const NavBar = () => {
       })
     }
    </ul>
-     <GoThreeBars/>
+   <button className="nav_toggle-btn">
+   <GoThreeBars/>
+   </button>
+     
 
     </div>
    </nav>
