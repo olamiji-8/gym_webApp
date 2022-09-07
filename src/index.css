@@ -27,5 +27,14 @@
   --transition:all 500ms ease;
 }
 body{
-  background: var(--color-primary);
+  color: var(--color-gray-200);
+  font-family: 'Montserrat',sans-serif;
+  line-height: 1.7;
+  overflow-x: hidden;
+  background:var(--color-gray-100);
+
+}
+.container{
+  width: var(--container-width-lg);
+  max-width: 1920px;
 }
