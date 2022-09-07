@@ -50,5 +50,10 @@ h2{
   font-size: 2rem;
 }
 a{
-  color: var(--color-gray-100);
+  color: white;
+}
+img{
+  display: block;
+  object-fit: cover;
+  width: 100%;
 }
