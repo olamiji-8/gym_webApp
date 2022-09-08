@@ -44,7 +44,7 @@ nav{
     display: block;
     width: 1.2rem;
     height: 1.2rem;
-    background: red;
+    background:dodgerblue;
     position: absolute;
     left: calc(50% - 0.6rem);
     transform: rotate(45deg);
