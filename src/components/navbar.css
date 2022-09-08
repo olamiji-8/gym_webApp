@@ -1,11 +1,38 @@
 nav{
     height: 5rem;
     width: 100vw;
-    background-color: var(--color-primary);
+    background-color:dodgerblue;
     display: grid;
     place-items:center;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
+}
+.nav_toggle-btn{
+    display: none;
+}
+
+.nav_container{
+    height: 100%;
+    display: flex;
+    gap: 18rem;
+    align-items: center;
+    position: relative;
+    
+}
+.logo img{
+    width: 7rem;
+  
+}
+.nav_links{
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+}
+.nav_links a{
+    transition: var(--color-primary);
+}
+.nav_links a:hover{
+    color: var(--color-secondary);
 }

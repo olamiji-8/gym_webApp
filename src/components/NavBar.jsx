@@ -7,7 +7,7 @@ import {GoThreeBars} from "react-icons/go"
 const NavBar = () => {
   return (
    <nav>
-    <div className="container container_nav">
+    <div className="nav_container">
     <Link to ="/" className="logo" >
     <img src={Logo} alt="Nav"/>
     </Link>
