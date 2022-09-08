@@ -1,10 +1,12 @@
 import "./navbar.css"
+import{useState} from "react" 
 import {Link,NavLink } from "react-router-dom"
 import Logo from "../images/logo.png"
 import {links} from "../data"
 import {GoThreeBars} from "react-icons/go"
 
 const NavBar = () => {
+  const [isNavShowimg, setIsNavShowing] = useState(false);
   return (
    <nav>
     <div className="nav_container">
@@ -12,7 +14,7 @@ const NavBar = () => {
     <img src={Logo} alt="Nav"/>
     </Link>
      
-   <ul className="nav_links">
+   <ul className={'nav_links $ {isNavShowing ? 'show_nav' : ''}'}>
     {
       links.map(({name,path}, index)=> {
         return(
