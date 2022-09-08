@@ -14,7 +14,7 @@ const NavBar = () => {
     <img src={Logo} alt="Nav"/>
     </Link>
      
-   <ul className={'nav_links $ {isNavShowing ? 'show_nav' : ''}'}>
+   <ul className={'nav_links $ {isNavShowing ? 'show__nav' : 'hide__nav'}'}>
     {
       links.map(({name,path}, index)=> {
         return(
